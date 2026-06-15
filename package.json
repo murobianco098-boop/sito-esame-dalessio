@@ -1,0 +1,16 @@
+{
+  "name": "student-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modern responsive student portfolio - plain HTML5/CSS3/JavaScript",
+  "scripts": {
+    "dev": "live-server --port=3000 --no-browser --entry-file=index.html",
+    "start": "live-server --port=3000 --no-browser --entry-file=index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^7.5.2"
+  }
+}

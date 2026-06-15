@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="light" class="bg-background">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2563eb" />
+
+  <!-- SEO -->
+  <title>Francesco D'Alessio — Sito Studente</title>
+  <meta name="description" content="Portfolio personale di Francesco D'Alessio, studente delle superiori. Scopri hobby, percorsi PCTO, progetti di educazione civica e risultati accademici." />
+  <meta name="keywords" content="portfolio studente, PCTO, educazione civica, progetti, hobby, curriculum" />
+  <meta name="author" content="Francesco D'Alessio" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Francesco D'Alessio — Portfolio Studente" />
+  <meta property="og:description" content="Hobby, esperienze PCTO, progetti di educazione civica e lavori accademici." />
+  <meta property="og:image" content="/assets/profile.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/css/styles.css" />
+
+  <!-- Structured data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Francesco D'Alessio",
+    "jobTitle": "Studente",
+    "url": "/",
+    "image": "/assets/profile.png"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto principale</a>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="Francesco D'Alessio home">
+        <span class="brand-mark" aria-hidden="true">FD</span>
+        <span>Francesco D'Alessio</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">Chi sono</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Attiva/disattiva modalità scura">
+          <svg class="icon theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="icon theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+
+        <button class="icon-btn nav-toggle" id="navToggle" type="button" aria-label="Apri/chiudi menu" aria-expanded="false">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <h1>Ciao, sono Francesco D'Alessio<br /><span class="accent">Studente Liceo E. Pascal</span></h1>
+          <p class="hero-lead">Uno studente delle superiori curioso e appassionato di tecnologia, design e impatto sulla comunità. Benvenuto nel mio portfolio digitale di esperienze, progetti e traguardi.</p>
+          <div class="hero-cta">
+            <a href="#about" class="btn btn-primary">
+              Scopri di più
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="/edcivica_dalessio.pdf" class="btn btn-outline" download="edcivica_dalessio.pdf">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              Scarica Educazione Civica
+            </a>
+            <a href="/capolavoro_dalessio.pdf" class="btn btn-outline" download="capolavoro_dalessio.pdf">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              Scarica Capolavoro
+            </a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap reveal">
+          <img class="hero-photo" src="/assets/profile.png" alt="Ritratto di Francesco D'Alessio" width="360" height="360" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATS ================= 
+    <section class="section section--alt" aria-label="Traguardi principali">
+      <div class="container">
+        <div class="stats-grid" id="statsGrid">
+          <div class="stat-card reveal"><div class="stat-num" data-count="12">0</div><div class="stat-label">Progetti completati</div></div>
+          <div class="stat-card reveal"><div class="stat-num" data-count="320">0</div><div class="stat-label">Ore di volontariato</div></div>
+          <div class="stat-card reveal"><div class="stat-num" data-count="5">0</div><div class="stat-label">Percorsi PCTO</div></div>
+          <div class="stat-card reveal"><div class="stat-num" data-count="8">0</div><div class="stat-label">Certificazioni</div></div>
+        </div>
+      </div>
+    </section>-->
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Chi sono</span>
+          <h2 class="section-title">Conoscimi un po&apos; meglio</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>Ciao! Sono <strong>Francesco D'Alessio</strong>, studente all'ultimo anno del Liceo E. Pascal. Da sempre nutro una forte passione per il mondo dell'informatica, del design e per tutto ciò che riguarda l'impatto sociale delle nuove tecnologie. La mia più grande motivazione è la progettualità: amo dare forma alle idee e trasformarle in strumenti concreti e accessibili che le persone possano davvero utilizzare nella vita di tutti i giorni. Che si tratti di programmare una piccola web app partendo da zero, dedicare il mio tempo al volontariato sul territorio o mettermi alla prova imparando a usare un nuovo software, affronto ogni sfida con una combinazione di profonda curiosità e dedizione. </p>
+            <div class="skills-block">
+              <h3>Competenze &amp; Strumenti</h3>
+              <div class="skill-tags">
+                <span class="tag">HTML &amp; CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Public Speaking</span>
+                <span class="tag">Lavoro di squadra</span>
+                <span class="tag">Fotografia</span>
+                <span class="tag">Problem Solving</span>
+              </div>
+            </div>
+          </div>
+          <div class="reveal">
+            <h3 style="margin-bottom:20px;">Percorso di studi ed esperienze</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-date">2021 — 2026</span>
+                <h4>Liceo E. Pascal</h4>
+                <p>Indirizzo scientifico, con specializzazione in scienze applicate e informatica.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-date">2023 -2024</span>
+                <h4>FSL — CITTADINANZA DIGITALE</h4>
+                <p>Partecipando al progetto FSL incentrato sulla cittadinanza digitale, ho sviluppato competenze sull'uso etico delle tecnologie e sui sistemi IoT. Attraverso attività d'aula, laboratori interattivi e una visita studio presso l'Università di Salerno, ho potuto esplorare l'ecosistema universitario e analizzare i risvolti innovativi delle nuove tecnologie nei contesti reali.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-date">2024 -2025</span>
+                <h4>FSL — LABORATORIO DI BIOTECNOLOGIE</h4>
+                <p>La mia partecipazione al percorso FSL Amgen Biotech Experience mi ha permesso di mettermi in gioco con la pratica di laboratorio, applicando i pilastri della biologia molecolare. Ho sperimentato in prima persona tecniche come la PCR per la replicazione del DNA, l'elettroforesi su agarosio per mappare i risultati, e il taglio mirato del DNA con enzimi di restrizione. Come traguardo finale del progetto, abbiamo assemblato il plasmide ricombinante pARA-R, sperimentando il reale flusso di lavoro della ricerca biomedica.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-date">2025 - 2026</span>
+                <h4>FSL — PCR</h4>
+                <p>La partecipazione al progetto incentrato sulla Polymerase Chain Reaction (PCR) mi ha consentito di padroneggiare una delle metodologie fondamentali della biologia molecolare. Il percorso, articolato tra approfondimenti teorici e sessioni sperimentali, ha avuto come oggetto il meccanismo di replicazione in vitro del DNA, analizzandone i cicli termici e valutandone l'impatto cruciale nei settori della diagnostica medica, della ricerca scientifica e del comparto biotecnologico.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOBBIES ================= -->
+    <section class="section section--alt" id="hobbies">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">I miei hobby</span>
+          <h2 class="section-title">Le cose che amo fare nel tempo libero</h2>
+          <p class="section-subtitle">Una galleria delle attività che mi tengono ispirato ed equilibrato.</p>
+        </div>
+        <div style="margin-bottom:24px;" class="admin-only">
+          <button class="btn btn-primary btn-sm" data-add="hobby" type="button">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            Aggiungi hobby
+          </button>
+        </div>
+        <div class="card-grid" id="hobbiesGrid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Francesco D'Alessio. Tutti i diritti riservati.</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#home">Home</a>
+        <a href="#about">Chi sono</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ================= MODALS / OVERLAYS ================= -->
+  <div class="modal-overlay" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+    <div class="modal">
+      <div class="modal-head">
+        <h3 id="loginTitle">Accesso Admin</h3>
+        <button class="icon-btn" data-close type="button" aria-label="Chiudi"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      </div>
+      <div class="modal-body">
+        <form id="loginForm" class="form-grid">
+          <div class="field">
+            <label for="adminPass">Password</label>
+            <input id="adminPass" type="password" placeholder="Inserisci la password admin" autocomplete="current-password" />
+          </div>
+          <p class="form-note">Password demo: <strong>admin123</strong>. Sblocca la gestione dei contenuti (aggiungi / modifica / elimina). Funziona solo lato browser.</p>
+          <button class="btn btn-primary btn-block" type="submit">Sblocca modifica</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="formModal" role="dialog" aria-modal="true" aria-labelledby="formModalTitle">
+    <div class="modal modal-lg">
+      <div class="modal-head">
+        <h3 id="formModalTitle">Aggiungi elemento</h3>
+        <button class="icon-btn" data-close type="button" aria-label="Chiudi"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      </div>
+      <div class="modal-body" id="formModalBody"></div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Anteprima immagine">
+    <button class="lightbox-close" data-close type="button" aria-label="Chiudi anteprima"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+    <img id="lightboxImg" src="" alt="Anteprima ingrandita" />
+  </div>
+
+  <div class="toast-wrap" id="toastWrap" aria-live="polite"></div>
+
+  <script src="/js/data.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
